@@ -1,6 +1,15 @@
 const { Worker } = require('worker_threads');
 
-console.log(` MUHAMMET_Warning Hacker DDoS `)
+console.log(`       
+            ██╗░░░░░███████╗░█████╗░██████╗░██╗░░██╗██████╗░
+            ██║░░░░░██╔════╝██╔══██╗██╔══██╗╚██╗██╔╝██╔══██╗
+            ██║░░░░░█████╗░░███████║██████╔╝░╚███╔╝░██║░░██║
+            ██║░░░░░██╔══╝░░██╔══██║██╔══██╗░██╔██╗░██║░░██║
+            ███████╗███████╗██║░░██║██║░░██║██╔╝╚██╗██████╔╝
+            ╚══════╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░
+            
+                  DDOS Script for Educational Purpose
+`)
 
 const [node, dir, address, port, threads = 4, time = 5] = process.argv;
 
